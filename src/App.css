@@ -1,0 +1,196 @@
+.employee-background-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("./asset/bck.jpg");
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 600px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.info-button {
+  position: relative;
+  top: 350px;
+  left: 920px;
+  background-image: linear-gradient(90deg, #e26a6e 1%, #f6b74b 100%);
+  border-radius: 30px !important;
+  width: 250px;
+  height: 50px;
+}
+
+.home-tabs {
+  position: relative;
+  left: 550px;
+}
+.app-bar {
+  background-color: black !important;
+}
+.sign-up-button {
+  border-radius: 15px;
+  width: 150px;
+  height: 35px;
+  position: relative;
+  top: 5px;
+  left: 90px;
+  border: 3px solid #fff !important;
+  color: #fff !important;
+}
+.title {
+  position: relative;
+  left: 70px;
+  top: 4px;
+}
+.text-color {
+  color: white !important;
+}
+
+.main-header {
+  position: absolute;
+  left: 600px;
+  top: 100px;
+}
+.footer {
+  position: relative;
+  top: 650px;
+  height: 100px;
+  background-image: linear-gradient(90deg, #221f1f 1%, #424241 100%);
+}
+.cards {
+  position: relative;
+  top: 600px;
+  margin: 30px 100px 30px 100px;
+  width: 1000px;
+}
+.footer-icons {
+  margin: 15px;
+  cursor: pointer;
+}
+.footer-icons-alignment {
+  position: relative;
+  left: 200px;
+  top: 30px;
+}
+.divider {
+  border-color: #fff !important;
+  position: relative;
+  bottom: 15px;
+}
+.copyright-icon {
+  font-size: 15px !important;
+  position: relative;
+  top: 2px;
+}
+.copyrights {
+  position: relative;
+  left: 100px;
+  top: 30px;
+}
+.navbar {
+  background-image: linear-gradient(90deg, #e26a6e 1%, #f6b74b 100%);
+}
+.table-header {
+  background-image: linear-gradient(90deg, #e26a6e 1%, #f6b74b 100%);
+  color: #fff;
+  width: 400px;
+  height: 40px;
+  font-size: 25px;
+}
+.table-data {
+  text-align: center;
+}
+
+.modal-button {
+  background-image: linear-gradient(90deg, #e26a6e 1%, #f6b74b 100%);
+}
+.paper-employee-details:hover {
+  background-color: #d3d3d3;
+}
+.employee-background {
+  background-color: #e5e4e2;
+  height: 62.5rem;
+}
+.home-cards {
+  display: flex;
+}
+.footer-copyright{
+  position: relative;
+  left: 900px 
+}
+.home-menu{
+  display: none !important;
+}
+/* Responsive */
+@media screen and (max-width: 480px) {
+  .employee-cards {
+    display: block !important;
+  }
+  .paper-employee-details:hover {
+    background-color: #d3d3d3;
+  }
+  .paper-employee-details {
+    width: 300px;
+  }
+  .employee-background {
+    height: 150rem;
+  }
+  .employee-tabs {
+    width: 200px;
+    right: 200px;
+    position: relative;
+  }
+  .main-header {
+    position: absolute;
+    left: 20px;
+    top: 100px;
+  }
+  .header {
+    font-size: 17px !important;
+    font-weight: 20px;
+  }
+  .home-content {
+    font-size: 12px !important;
+    top: 100px;
+  }
+  .home-content-sub {
+    font-size: 10px !important;
+    top: 100px;
+  }
+  .info-button {
+    top: 300px;
+    left: 80px;
+    width: 150px;
+    height: 40px;
+  }
+  .home-tabs {
+    left: 0;
+  }
+  .home-cards {
+    display: block;
+  }
+  .cards {
+    position: relative;
+    top: 600px;
+    width: 250px;
+    left: 30px;
+    margin: 0;
+  }
+  .card-action {
+    margin-top: 20px !important;
+  }
+  .footer-icons {
+    margin: 10px;
+    cursor: pointer;
+  }
+  .copyrights {
+    left: 0;
+    top: 10px;
+  }
+  .footer-icons-alignment {
+    left: 0;
+  }
+  .footer-copyright{
+    display: none;
+  }
+  .employee-modal{
+    width: 250px !important;
+  }
+}
